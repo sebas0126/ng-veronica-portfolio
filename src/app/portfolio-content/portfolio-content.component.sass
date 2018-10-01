@@ -1,21 +1,57 @@
 #content
+  position: relative
+  overflow-x: hidden
+  overflow-y: auto
+  .decoration
+    position: absolute
+    &.top
+      top: 0
+      left: 0
+      width: 110%
+    &.bottom
+      top: 50%
+      left: 0
+      width: 20%
+
+.grid
+  display: grid
+  height: 100vh
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr
+  grid-template-rows: 1fr 5fr 5fr 1fr
+  grid-template-areas: "pl margin margin margin margin pr" "pl picture picture profile . pr" "pl . work work . pr" "pl . footer footer . pr"
+
+.photo
+  grid-area: picture
   display: flex
   flex-direction: column
-  width: 100vw
-  height: 100vh
-  overflow-x: hidden
+  align-items: center
+  img
+    width: 90%
 
-#curriculum
+.info
+  grid-area: profile
+
+.work
+  grid-area: work
+
+.chairs
   display: flex
   flex-wrap: wrap
-  padding: 3% 0
-  .photo
+  justify-content: space-around
+  align-items: center
+  .chair
+    width: 70px
+
+footer
+  grid-area: footer
+  text-align: center
+
+@media (max-width: 768px)
+
+  .grid
     display: flex
-    flex-basis: 400px
     flex-direction: column
-    align-items: center
-    img
-      height: 90%
-  .info
-    flex-basis: 500px
+    padding: 8% 8% 0 8%
+    height: auto
+    overflow-y: auto
 
