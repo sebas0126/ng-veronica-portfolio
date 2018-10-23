@@ -4,47 +4,42 @@
   <div class="grid">
     <section class="photo">
       <img src="assets/imgs/portfolio-photo.png" alt="">
-      <p>&#62;Hoja de vida&#60;</p>
+      <p class="font-museoSans900 font-dot8 color-dark">&#62;Hoja de vida&#60;</p>
     </section>
     <section class="info">
-      <h1 class="no-margin">
+      <h1 class="no-margin font-museo900 color-dark font-2">
         Verónica
       </h1>
-      <h2 class="no-margin">Valencia Echavarria</h2>
-      <strong>Profesional en estudios literarios</strong>
+      <h2 class="no-margin font-museo900 color-dark">Valencia Echavarria</h2>
+      <strong class="font-museoSans500 font-dot8">Profesional en estudios literarios</strong>
       <br>
-      Egresada no graduada
-      <h3>Perfil</h3>
-      <p class="profile">
+      <span class="no-margin font-dot8">Egresada no graduada</span>
+      <br>
+      <br>
+      <h3 class="no-margin font-vinchand font-1dot5">Perfil</h3>
+      <p class="no-margin profile">
         Escribir como una necesidad, escribir como la mejor forma de vivir y compartir el hecho teatral y cultural, la
         literatura, la calle y los viajes.
       </p>
-      <h3>Contacto</h3>
-      <p class="contact">
+      <h3 class="no-margin font-vinchand font-1dot5">Contácto</h3>
+      <p class="no-margin contact">
         veronica.valencia@upb.edu.co&nbsp;&nbsp;&nbsp;318 614 9831
       </p>
     </section>
     <section class="work">
-      <h3>Publicaciones</h3>
+      <h3 class="no-margin font-vinchand font-1dot5">Publicaciones</h3>
+      <br>
       <div class="chairs">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
-        <img class="chair" src="assets/imgs/portfolio-chair.png" alt="">
+        <div class="container" (mouseenter)="mouseEnter(chair); userInteraction()" (mouseleave)="mouseLeave(chair)" *ngFor="let chair of chairs">
+          <img class="chair" [src]="chair.image" alt="">
+          <div *ngIf="chair.show" class="float">{{chair.message}}</div>
+        </div>
       </div>
     </section>
     <footer>
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+      <span class="no-margin font-vinchand font-1dot5">"Quiero ganarme con mi escritura el pan y la sal."</span>
+      <br>
+      <span class="author font-dot8">Sylvia Plath</span>
     </footer>
   </div>
 </div>

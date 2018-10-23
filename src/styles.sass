@@ -2,8 +2,72 @@
   --light: #eeeeee
   --dark: #845f74
 
+@font-face
+  font-family: 'museo_slab300'
+  src: url('assets/fonts/museo_slab_300/museo_slab_300-webfont.woff2') format('woff2'), url('assets/fonts/museo_slab_300/museo_slab_300-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'museo900'
+  src: url('assets/fonts/museo900-regular/museo900-regular-webfont.woff2') format('woff2'), url('assets/fonts/museo900-regular/museo900-regular-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'museo_sans900'
+  src: url('assets/fonts/museosans_900/museosans_900-webfont.woff2') format('woff2'), url('assets/fonts/museosans_900/museosans_900-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'museo_sans100'
+  src: url('assets/fonts/museosans-100/museosans-100-webfont.woff2') format('woff2'), url('assets/fonts/museosans-100/museosans-100-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'museo_sans500'
+  src: url('assets/fonts/museosans-500/museosans-500-webfont.woff2') format('woff2'), url('assets/fonts/museosans-500/museosans-500-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+    font-family: 'vinchandregular'
+    src: url('assets/fonts/vinchand/vinchand-webfont.woff2') format('woff2'), url('assets/fonts/vinchand/vinchand-webfont.woff') format('woff')
+    font-weight: normal
+    font-style: normal
+
 body
   background-color: var(--light)
 
 .no-margin
   margin: 0
+
+.color-
+  &dark
+    color: var(--dark)
+
+.font-
+  &museo900
+    font-family: 'museo900'
+  &museoSans900
+    font-family: 'museo_sans900'
+  &museoSans100
+    font-family: 'museo_sans100'
+  &museoSans500
+    font-family: 'museo_sans500'
+  &vinchand
+    font-family: 'vinchandregular'
+  &museoSlab300
+    font-family: 'museo_slab300'
+  &dot5
+    font-size: 0.5em
+  &dot8
+    font-size: 0.8em
+  &1dot5
+    font-size: 1.5em
+  &2
+    font-size: 2em
+  &2dot5
+    font-size: 2.5em

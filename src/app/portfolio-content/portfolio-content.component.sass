@@ -4,6 +4,7 @@
   overflow-y: auto
   .decoration
     position: absolute
+    z-index: -1
     &.top
       top: 0
       left: 0
@@ -30,6 +31,7 @@
 
 .info
   grid-area: profile
+  font-family: 'museo_sans100'
 
 .work
   grid-area: work
@@ -39,12 +41,28 @@
   flex-wrap: wrap
   justify-content: space-around
   align-items: center
-  .chair
-    width: 70px
+  .container
+    position: relative
+    .chair
+      width: 70px
+    .float
+      background-image: url("/assets/imgs/float.png")
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      padding: 10% 10% 25% 15%
+      position: absolute
+      width: 200%
+      top: -60%
+      left: -40%
+    
 
 footer
   grid-area: footer
   text-align: center
+  font-family: 'museo_sans100'
+  
+  .author
+    float: right
 
 @media (max-width: 768px)
 
