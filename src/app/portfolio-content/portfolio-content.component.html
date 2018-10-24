@@ -30,8 +30,9 @@
       <h3 class="no-margin font-vinchand font-1dot5">Publicaciones</h3>
       <br>
       <div class="chairs">
-        <div class="container" (mouseenter)="mouseEnter(chair); userInteraction()" (mouseleave)="mouseLeave(chair)" *ngFor="let chair of chairs">
-          <img class="chair" [src]="chair.image" alt="">
+        <div class="container" (click)="goArticle(chair.url)" (mouseenter)="mouseEnter(chair); userInteraction()" (mouseleave)="mouseLeave(chair)" *ngFor="let chair of chairs">
+          <img *ngIf="!chair.show" class="chair" [src]="chair.image" alt="">
+          <img *ngIf="chair.show" class="chair" [src]="chair.alt" alt="">
           <div *ngIf="chair.show" class="float">{{chair.message}}</div>
         </div>
       </div>
