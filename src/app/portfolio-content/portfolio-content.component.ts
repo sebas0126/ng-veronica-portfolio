@@ -21,7 +21,7 @@ export class PortfolioContentComponent implements OnInit {
     {
       image: "assets/imgs/chair-2-full.png",
       alt: "assets/imgs/chair-2-emp.png",
-      message: "EXTASIS 9:05: UN POEMA PARA EL FIN DEL MUNDO. 2017 ",
+      message: "Extasis 9:05: Un poema para el fin del mundo. 2017",
       show: false,
       url: "http://aplaudirdepie.com/extasis-905-un-poema-para-el-fin-del-mundo/"
     },
@@ -41,7 +41,7 @@ export class PortfolioContentComponent implements OnInit {
     {
       image: "assets/imgs/chair-5-full.png",
       alt: "assets/imgs/chair-5-emp.png",
-      message: "¿QUÉ ESTÁ PASANDO CON EL TEATRO UNIVERSITARIO?. 2017",
+      message: "¿Qué está pasando con el teatro universitario?. 2017",
       show: false,
       url: "http://aplaudirdepie.com/que-esta-pasando-con-el-teatro-universitario/"
     },
@@ -54,7 +54,7 @@ export class PortfolioContentComponent implements OnInit {
     {
       image: "assets/imgs/chair-7-full.png",
       alt: "assets/imgs/chair-7-emp.png",
-      message: "El teatro La hora 25: El arte para la transformación social.2018",
+      message: "El teatro La hora 25: El arte para la transformación social. 2018",
       show: false,
       url: "https://www.elespectador.com/noticias/noticias-de-cultura/el-teatro-la-hora-25-el-arte-para-la-transformacion-social-articulo-745531"
     },
@@ -97,7 +97,107 @@ export class PortfolioContentComponent implements OnInit {
       show: false,
       url: "https://www.salallena.com/noticias/Amnesia:-fragmentos-del-olvido/69"
     },
-
+    {
+      image: "assets/imgs/chair.png",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-11-full.png",
+      alt: "assets/imgs/chair-11-emp.png",
+      message: "Cuando la historia sucede al revés: El descubrimiento de Europa. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/Cuando-la-historia-sucede-al-rev%C3%A9s:-El-descubrimiento-de-Europa/104?fbclid=IwAR3MA02kAotdNwagkIJ0OgSHL05qwvmwOANYoXys1FKrqfNOesBO1SZFeSQ"
+    },
+    {
+      image: "assets/imgs/chair-2-full.png",
+      alt: "assets/imgs/chair-2-emp.png",
+      message: "Escombrera, una obra sobre la memoria y la violencia en Medellín. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/Escombrera,-una-obra-sobre-la-memoria-y-la-violencia-en-Medell%C3%ADn/105"
+    },
+    {
+      image: "assets/imgs/chair-5-full.png",
+      alt: "assets/imgs/chair-5-emp.png",
+      message: "Las mujeres afro se toman la palabra. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/Las-mujeres-afro-se-toman-la-palabra./103?fbclid=IwAR2UXyolu7hy3lu7KJHHSSDA7NWUzv-uKXxsZIgfdBV0iJzyZqo56bzpmSg"
+    },
+    {
+      image: "assets/imgs/chair.png",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-3-emp.png",
+      alt: "",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-9-full.png",
+      alt: "assets/imgs/chair-9-emp.png",
+      message: "La Hora 25 es la hora de las criaturas de un día. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/La-Hora-25-es-la-hora-de-las-criaturas-de-un-d%C3%ADa./102"
+    },
+    {
+      image: "assets/imgs/chair-14-full.png",
+      alt: "assets/imgs/chair-14-emp.png",
+      message: "De la selva a la ciudad, un desplazamiento. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/De-la-selva-a-la-ciudad,-un-desplazamiento./101"
+    },
+    {
+      image: "assets/imgs/chair.png",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair.png",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-7-full.png",
+      alt: "assets/imgs/chair-7-emp.png",
+      message: "Una comparsa para viajar en el tiempo. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/Una-comparsa-para-viajar-en-el-tiempo/100"
+    },
+    {
+      image: "assets/imgs/chair-11-emp.png",
+      alt: "",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-5-full.png",
+      alt: "assets/imgs/chair-5-emp.png",
+      message: "10 años, 10 personajes, 1 ilusionista. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/10-a%C3%B1os,-10-personajes,-1-ilusionista./99?fbclid=IwAR31Tm-2xRDV31cW9ZMIwQVEN8XFMsDFYYzpWWUNzAjcd8xbGWhCehUBd5I"
+    },
+    {
+      image: "assets/imgs/chair-14-emp.png",
+      alt: "",
+      message: "",
+      show: false,
+      url: ""
+    },
+    {
+      image: "assets/imgs/chair-3-full.png",
+      alt: "assets/imgs/chair-3-emp.png",
+      message: "Tras la pista del marinero de Amsterdam. 2018",
+      show: false,
+      url: "https://www.salallena.com/noticias/Tras-la-pista-del-marinero-de-Ámsterdam-del-Teatro-El-Trueque/96"
+    }
   ]
 
   constructor() { }
@@ -115,7 +215,7 @@ export class PortfolioContentComponent implements OnInit {
       this.currentChair = chairs[index];
       index++;
       if (index > chairs.length - 1) index = 0;
-    }, 1000);
+    }, 2000);
   }
 
   userInteraction() {
@@ -127,7 +227,9 @@ export class PortfolioContentComponent implements OnInit {
   }
 
   goArticle(url) {
-    window.open(url, "_blank");
+    if(url){
+      window.open(url, "_blank");
+    }
   }
 
   mouseEnter(chair){
